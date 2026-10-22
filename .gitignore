@@ -1,0 +1,7 @@
+*.zip
+*.exe
+*.pyc
+config/
+data/
+backups/
+.env*

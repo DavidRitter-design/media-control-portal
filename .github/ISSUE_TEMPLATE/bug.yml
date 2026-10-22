@@ -1,0 +1,30 @@
+name: Fehler melden / Bug report
+description: Einen nachvollziehbaren Fehler melden / Report a reproducible problem
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Keine Passwörter, Geräteprofile oder privaten Links posten. / Do not post credentials, device profiles or private URLs."
+  - type: input
+    id: versions
+    attributes:
+      label: Portal-, Windows-, LibreELEC- und Kodi-Version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Schritte / Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Erwartet und tatsächlich / Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Zusätzliche Angaben / Additional information
+      description: Nur geschwärzte Screenshots und nicht sensible Angaben. / Redacted screenshots and non-sensitive details only.

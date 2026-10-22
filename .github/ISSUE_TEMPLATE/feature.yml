@@ -1,0 +1,16 @@
+name: Verbesserung / Feature request
+description: Eine Verbesserung vorschlagen / Suggest an improvement
+title: "[Idee]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem möchtest du lösen? / What problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Vorschlag / Proposal
+    validations:
+      required: true
